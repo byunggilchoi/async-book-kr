@@ -1,0 +1,19 @@
+[book]
+authors = ["BG Choi"]
+language = "en"
+multilingual = false
+src = "src"
+title = "async-book-kr"
+
+
+[build]
+create-missing = false
+
+[preprocess.links]
+
+[output.html]
+git-repository-url = "https://github.com/byunggilchoi/async-book"
+
+[output.linkcheck]
+follow-web-links = true
+traverse-parent-directories = false
