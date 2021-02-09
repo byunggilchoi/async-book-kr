@@ -16,7 +16,8 @@ jobs:
         with:
           mdbook-version: "latest"
 
-      - run: cargo install mdbook-linkcheck
+      - name: Setup mdbook-linkcheck
+        uses: Michael-F-Bryan/mdbook-linkcheck@latest
 
       - run: mdbook build
 
